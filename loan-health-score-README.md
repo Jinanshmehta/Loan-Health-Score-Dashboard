@@ -1,18 +1,11 @@
-# 🏦 Loan Health Score Dashboard
+Loan Health Score Dashboard
 
 A credit risk analysis tool that scores bank loan applicants as **Low / Medium / High** risk — built to simulate the kind of decision-support tools used by credit officers at banks.
 
----
+What This Project Does
 
-## 📌 What This Project Does
-
-Most loan analysis projects just show charts. This one goes further — it lets you input borrower details and instantly get a risk score with a plain-English explanation of *why* they're risky or safe.
-
-Think of it as a simplified version of what a bank's internal credit team uses before approving a loan.
-
----
-
-## 🛠️ Tech Stack
+Most loan analysis projects just show charts. This one goes further, it lets you input borrower details and instantly get a risk score with a plain-English explanation of *why* they're risky or safe.
+🛠️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -22,9 +15,7 @@ Think of it as a simplified version of what a bank's internal credit team uses b
 | Streamlit | Interactive dashboard |
 | Matplotlib / Seaborn | Charts and visualizations |
 
----
-
-## 📂 Project Structure
+Project Structure
 
 ```
 loan-health-score/
@@ -54,12 +45,9 @@ loan-health-score/
 - **Size:** 10,000+ loan records
 - **Key Fields:** Loan amount, interest rate, debt-to-income ratio, credit history, employment length, loan status
 
----
-
-## ⚙️ How the Risk Score Works
+How the Risk Score Works
 
 The tool scores each borrower across 5 parameters:
-
 1. **Debt-to-Income Ratio (DTI)** — lower is safer
 2. **Credit History Length** — longer is safer
 3. **Loan Amount vs. Income** — proportionality check
@@ -71,9 +59,7 @@ Each parameter gets a sub-score. The final score maps to:
 - 🟡 **Medium Risk** — Needs further review
 - 🔴 **High Risk** — Likely to default
 
----
-
-## 🚧 Current Progress
+Current Progress
 
 - [x] Dataset downloaded and cleaned
 - [x] SQL schema and database set up
@@ -81,26 +67,3 @@ Each parameter gets a sub-score. The final score maps to:
 - [x] Scoring logic built in Python
 - [ ] Streamlit dashboard — in progress
 - [ ] Explainability layer (plain-English reasons) — upcoming
-
----
-
-## 📈 What I Learned
-
-- How to design a relational database schema for financial records
-- SQL querying for aggregations, filters, and joins on large datasets
-- How credit risk parameters are used in real banking decisions
-- Building user-facing tools with Streamlit
-
----
-
-## 🔗 Related Concepts
-
-`Credit Risk` · `Loan Analysis` · `Banking Analytics` · `Data Visualization` · `SQL` · `Python`
-
----
-
-## 👤 Author
-
-**[Your Name]**
-B.Tech | Aspiring Finance Data Analyst
-[LinkedIn](#) · [GitHub](#)
