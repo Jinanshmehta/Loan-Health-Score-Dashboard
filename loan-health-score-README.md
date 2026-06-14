@@ -64,6 +64,6 @@ Current Progress
 - [x] Dataset downloaded and cleaned
 - [x] SQL schema and database set up
 - [x] Exploratory data analysis complete
-- [x] Scoring logic built in Python
+- [ ] Scoring logic built in Python
 - [ ] Streamlit dashboard — in progress
 - [ ] Explainability layer (plain-English reasons) — upcoming
